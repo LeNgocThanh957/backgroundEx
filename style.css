@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 600px;
+    width: 100%;
+    display: block;
+}
+
+.logo-navigation {
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 70%;
+    height: 100%;
+    font-size: 50px;
+    background-color: blue;
+}
+
+.navigation {
+    width: 30%;
+    height: 100%;
+    font-size: 50px;
+    background-color: blue;
+}
+
+
+.header-banner {
+    height: 10%;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: blue;
+}
+
+.into-text {
+    height: 10%;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: blue;
+}
+
+.listBox {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.box-1 {
+    height: 100%;
+    width: 30%;
+    margin: 0 30px;
+    background-color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer {
+    height: 10%;
+    width: 100%;
+    margin-top: 20px;
+    background-color: blue;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .logo-navigation{
+        width: 750px;
+    }
+
+    .logo{
+        width: 30%;
+    }
+    .navigation{
+        width: 70%;
+    }
+
+    .listBox{
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .box-1 {
+        height: 400px;
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
